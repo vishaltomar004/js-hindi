@@ -37,8 +37,17 @@ const obj2 = {
 // const object3 = Object.assign({ , obj1, obj2});
 // console.log(object3);
 
-const object 3 = {...obj1 ,...obj2};
+// const object 3 = {...obj1 ,...obj2};
 
-console.log(object3);
+// console.log(object3);
 
 
+const course = {
+    courseName :"Spring boot",
+    price : 999,
+    courseInstructor : "hitesh"
+}
+
+const {courseInstructor} = course
+
+console.log(courseInstructor);
