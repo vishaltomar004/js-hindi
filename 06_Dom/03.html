@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+
+<script>
+    const div = document.createElement('div');
+    // console.log(div);
+    div.className ="main";
+    div.id = Math.round(Math.random() *10 +1)
+
+    div.setAttribute("title" , "generated Title")
+    div.style.backgroundColor ='green'
+    // div.innerHTML ="yeh toh div hai"
+    // div.append();
+
+    const textToAdd = document.createTextNode("Chai aur code");
+    div.appendChild(textToAdd);
+    console.log(div);
+    document.body.appendChild(div);
+</script>
+</html>
