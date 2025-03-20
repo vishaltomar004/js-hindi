@@ -1,0 +1,58 @@
+.button {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin: 10px;
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+
+/* Colors based on IDs */
+#grey {
+    background-color: grey;
+}
+
+#white {
+    background-color: white;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+/* Responsive design for different screen sizes */
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* For mobile devices */
+@media (max-width: 600px) {
+    .button {
+        width: 40px;
+        height: 40px;
+        margin: 5px;
+    }
+}
+
+/* For tablets and medium screens */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .button {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+/* For larger screens */
+@media (min-width: 1025px) {
+    .button {
+        width: 70px;
+        height: 70px;
+    }
+}
