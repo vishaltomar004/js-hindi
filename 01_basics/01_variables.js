@@ -3,3 +3,4 @@ let accountEmail="aksjfhga";
 var accountPassword ="124"
 accountCity ="Jaipur"
 
+console.log(accountEmail);
